@@ -10,7 +10,7 @@ To use the app, you must first sign up. It just requires your email and for you 
 
 ## Installation
 Link to website:
-[Web App Link]()
+[Web App Link](https://still-retreat-71642.herokuapp.com/)
 
 ## Technologies used
 This project used the following technologies
