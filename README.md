@@ -1,10 +1,11 @@
 # Learn Something New
 
 # Description 
-"Learn Something New" is a web app that allows users to make their flashcards. Making flashcards is a helpful way for people to learn new vocabulary quickly. You simply speccify the topic, term, and definition in the correct fields provided in the app, and click submit, and this will create a flash card. This app is an authenticated app the requires users to login. This makes sure users only see the cards they create.  
+"Learn Something New" is a web application that allows users to make flashcards. Making flashcards is a helpful way for people to learn new vocabulary quickly. You simply speccify the topic, term, and definition in the correct fields provided in the app, click submit, and flash card will be generated. This app is an authenticated app requiring users to login, which makes sure users only see the cards they create. 
+ 
 ## Mock-up
 
-To use the app, you must first sign up. It just requires your email and for you to set a password that is greater than 8 characters in length. You will then be redirected to the welcome page for your account. On this page, you can make flash cards by adding a topic, term, and definition and clicking submit. Once submitted, you will see a rectangular card below with the name of the topic you chose. If you click on this topic, cards in the quiz section below will appear. Any card with the same topic will appear below, so if there are ten terms with the same topic, 10 cards will apear. Hovering over the card will trigger it to flip over. The idea here is that you make a guess of the definiton, and then hover over and see the definition. If you were correct, click correct, and the term will show up under the Correct section, or click incorrect and it will show up in the incorrect sections. You can also delete terms and they will disappear. Whether you click correct, incorrect, or delete, the flash card will be removed from the DOM. You can click other topics and cards will be appended to the bottom of the page. 
+To use this app, you must first sign up by entering an email and a password. You will then be redirected to the welcome page for your account. On this page, you can make flash cards by adding a topic, term, and definition and clicking submit. Once submitted, you will see a rectangular card below with the name of the topic you chose. If you click on this topic, cards in the quiz section below will appear. Any card with the same topic will appear below, so if there are ten terms with the same topic, 10 cards will apear. Hovering over the card will trigger it to flip over. The idea here is that you make a guess of the definiton, and then hover over and see the definition. If you were correct, click the correct button, and the term will show up under the Correct section, or click incorrect and it will show up in the incorrect section. You can also delete terms and they will disappear. Whether you click correct, incorrect, or delete, the flash card will be removed from the DOM. You can click other topics and cards will be appended to the bottom of the page. 
 
 ![GIF Of Functionality](./public/assets/images/flashcard.gif)
 
@@ -34,17 +35,7 @@ This project was a collaboration between the following individuals
 - Chris Stanfill
 - Sarah Paitz 
 - Louis Werner
-- Chris Bone 
-
-##  Future Direction
-This project was a great learning experience in full stack web development. Each issue we encountered was a learnign opportunity to gain more insight into this exciting field. The app is far from perfect, however, it is fucntional in its current iteration. With that said there are some future features we want to add to make this a more enticing app for users to use to expand their vocabulary and learn new ideas, below are some ideas we have for the future of this app: 
-
-- Dark Mode: Users can click a button and the application takes on a darker theme in appearance and use. Users can search terms on urban dictionary and add them to topics they create. 
-- Light Mode: Users can click a button and the aplication takes on a lighter theme in appearance and use. Users can search terms on Webster's dictionary and add them to topics they create. 
-- Game modes to test knowledge that keep score. This would add drag and drop features for users.  
-- Tect to speech: Users click a button and hear how a word is pronounced using the google API. Was unable to implement this becuase of cost.  
-- Provide a share feature to share decks to other users. 
-- Integrate with the Canvas, a learning management system used by educators around the world to create assignments for students to study vocabulary.   
+- Chris Bone   
 
 ##  Special Thanks
 We would like to thank Brandon Max and Paal Williams for their help and insight into building this application. Their guidance was helpful and informative. Their guidance helped us deliver an application we are proud to have built.  
